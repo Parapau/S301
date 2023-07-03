@@ -9,53 +9,35 @@ public class Main {
 		Undo undo = Undo.getInstancia();
 		int opcio = 0;
 
-		System.out.println("Dona comandes i fare coses, per de:\n"
-				+ "1.suma\n"
-				+ "2.resta\n"
-				+ "3.escriure basura a la pantalla\n"
-				+ "4.escriure coses boniques a la pantalla\n"
-				+ "5.veure les comandes anteriors\n"
+		System.out.println("Dona comandes i fare coses, per eliminar al ultima comanda que has entrat introdueix undo\n"
+				+ "1.escriure basura a la pantalla\n"
+				+ "2.escriure coses boniques a la pantalla\n"
+				+ "3.veure les comandes anteriors\n"
 				+ "0.sortir");
 		do {
 			opcio = numeros();
 			switch (opcio) {
 			case 1:
-				suma();
-				break;
-			case 2:
-				resta();
-				break;
-			case 3:
 				asdfg();
 				break;
-			case 4:
+			case 2:
 				patata();
 				break;
-			case 5:
+			case 3:
 				Undo.getInstancia().showComandes();
 				break;
-				
-
+			case 6:
+				System.out.println("Comanda eliminada");
+				break;
+			default:
+				System.out.println("si veus aixo el programador es gilipolles");
+				break;
 			}
 
 		} while (true);
 
 
 	}
-
-
-
-	public static void suma() {
-
-
-	}
-
-
-	public static void resta() {
-
-	}
-
-
 	public static void asdfg() {
 		int i = 0;
 		System.out.println("a");
@@ -67,7 +49,7 @@ public class Main {
 	}
 
 	public static void patata() {
-
+		System.out.println("Les patates estan molt bones");
 
 	}
 
