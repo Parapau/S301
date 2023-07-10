@@ -30,7 +30,7 @@ public class Main {
 				System.out.println("Comanda eliminada");
 				break;
 			default:
-				System.out.println("si veus aixo el programador es gilipolles");
+				System.out.println("aixo no es una opcio, gilipolles");
 				break;
 			}
 

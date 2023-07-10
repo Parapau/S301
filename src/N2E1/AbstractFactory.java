@@ -1,6 +1,6 @@
 package N2E1;
 
-public interface AbstractFactory {
-	public Telefon create (String type);
+public abstract class AbstractFactory {
+	public abstract Apunt create (String type);
 	
 }

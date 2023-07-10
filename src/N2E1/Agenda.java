@@ -3,18 +3,18 @@ package N2E1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Agenda<T> {
-	private List<T> agenda;
+public class Agenda {
+	private List<Apunt> agenda;
 
 	public Agenda() {
-		this.agenda = new ArrayList<T>();
+		this.agenda = new ArrayList<Apunt>();
 	}
 
-	public List<T> getAgenda() {
+	public List<Apunt> getAgenda() {
 		return agenda;
 	}
 
-	public void setAgenda(List<T> agenda) {
+	public void setAgenda(List<Apunt> agenda) {
 		this.agenda = agenda;
 	}
 	

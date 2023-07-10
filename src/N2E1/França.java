@@ -1,17 +1,12 @@
 package N2E1;
 
-public class França implements Telefon{
-	String pais;
+public class França extends TelefonFactory implements Telefon, Apunt {
 	int numero;
 	
-	public França(String pais, int numero) {
-		this.pais = pais;
+	public França(int numero) {
 		this.numero = numero;
 	}
 
-	public String getPais() {
-		return pais;
-	}
 
 	public int getNumero() {
 		return numero;
@@ -19,10 +14,6 @@ public class França implements Telefon{
 	
 	public String getCodi() {
 		return "+33";
-	}
-
-	public void setPais(String pais) {
-		this.pais = pais;
 	}
 
 	public void setNumero(int numero) {
