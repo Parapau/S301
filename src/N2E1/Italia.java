@@ -11,7 +11,7 @@ public class Italia extends TelefonFactory implements Telefon, Apunt{
 		return numero;
 	}
 	
-	public String getCodi() {
+	public String getTipus() {
 		return "+39";
 	}
 
@@ -20,7 +20,9 @@ public class Italia extends TelefonFactory implements Telefon, Apunt{
 	}
 	
 	
-	
+	public String toString() {
+		return getTipus() + " " + getNumero();
+	}
 	
 }
 

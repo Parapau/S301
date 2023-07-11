@@ -12,7 +12,7 @@ public class Espanya extends TelefonFactory implements Telefon, Apunt {
 		return numero;
 	}
 	
-	public String getCodi() {
+	public String getTipus() {
 		return "+34";
 	}
 
@@ -20,5 +20,8 @@ public class Espanya extends TelefonFactory implements Telefon, Apunt {
 		this.numero = numero;
 	}
 	
+	public String toString() {
+		return getTipus() + " " + getNumero();
+	}
 }
 

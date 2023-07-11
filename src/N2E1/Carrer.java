@@ -9,6 +9,11 @@ public class Carrer extends DireccioFactory implements Direccio, Apunt {
 		this.porta = porta;
 	}
 
+	
+	public String getCarrer() {
+		return carrer;
+		
+	}
 	public String getPis() {
 		return pis;
 	}
@@ -33,6 +38,10 @@ public class Carrer extends DireccioFactory implements Direccio, Apunt {
 	@Override
 	public String getTipus() {
 		return "Carrer";
+	}
+	
+	public String toString() {
+		return getCarrer() + " " + getPorta() + " " + getPis();
 	}
 
 

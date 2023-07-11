@@ -9,6 +9,11 @@ public class Plaça extends DireccioFactory implements Direccio, Apunt{
 		this.porta = porta;
 	}
 
+	public String getCarrer() {
+		return carrer;
+		
+	}
+	
 	public String getPis() {
 		return pis;
 	}
@@ -35,5 +40,7 @@ public class Plaça extends DireccioFactory implements Direccio, Apunt{
 		return "Plaça";
 	}
 
-
+	public String toString() {
+		return getCarrer() + " " + getPorta() + " " + getPis();
+	}
 }
