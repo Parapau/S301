@@ -2,7 +2,7 @@ package N3E1;
 
 public class Control {
 	
-	Command slot;
+	private Command slot;
 	
 	public Control() {}
 	
