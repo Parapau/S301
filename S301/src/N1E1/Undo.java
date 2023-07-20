@@ -55,7 +55,13 @@ public class Undo {
 	
 	public void removeComanda() {
 		this.comandes.remove(comandes.size()-1);
-		this.comandes.remove(comandes.size()-1);
+		try {
+			this.comandes.remove(comandes.size()-1);
+			System.out.println("Comanda eliminada");
+		} catch (IndexOutOfBoundsException e) {
+			System.out.println("No hi ha cap comanda aixi que no hi ha res a eliminar");
+		}
+		
 	}
 	
 	
