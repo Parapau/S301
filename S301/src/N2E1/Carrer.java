@@ -1,7 +1,7 @@
 package N2E1;
 
 public class Carrer extends DireccioFactory implements Direccio, Apunt {
-	String carrer, pis, porta;
+	private String carrer, pis, porta;
 	
 	public Carrer (String carrer, String porta, String pis) {
 		this.carrer = carrer;
