@@ -1,7 +1,7 @@
 package N3E1;
 
 public abstract class Vehicle {
-	String onomatopeia, tipus;
+	private String onomatopeia, tipus;
 	
 	public abstract String getOnomatopeia();
 	
