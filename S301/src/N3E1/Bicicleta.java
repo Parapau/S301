@@ -1,7 +1,7 @@
 package N3E1;
 
 public class Bicicleta extends Vehicle{
-	String tipus, onomatopeia;
+	private String tipus, onomatopeia;
 	
 	
 	public Bicicleta () {
