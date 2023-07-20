@@ -1,7 +1,7 @@
 package N2E1;
 
 public class Italia extends TelefonFactory implements Telefon, Apunt{
-	int numero;
+	private int numero;
 	
 	public Italia(int numero) {
 		this.numero = numero;
