@@ -1,7 +1,7 @@
 package N3E1;
 
 public class Avio extends Vehicle{
-	String tipus, onomatopeia;
+	private String tipus, onomatopeia;
 	
 	
 	public Avio () {
